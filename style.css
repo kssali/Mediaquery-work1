@@ -1,0 +1,38 @@
+.container-one{
+    font-size: 32px;
+    height: 100px;
+    background-color: brown;
+}
+h6{
+    height: 150px;
+    font-size: 28px;
+    background-color: blueviolet;
+    
+}
+
+
+@media(min-width:300px) and (max-width:700px){
+    .container-one{
+      
+        background-color: rgb(108, 165, 42);
+    }
+    h6{
+       font-size: 22px;
+       color: white;
+        background-color: rgb(235, 50, 37);
+        
+    }
+}
+@media(min-width:700px) and (max-width:900px){
+    .container-one{
+      
+        background-color: rgb(230, 216, 20);
+    }
+    h6{
+       font-size: 22px;
+
+       color: white;
+        background-color: rgb(20, 9, 168);
+        
+    }
+}
